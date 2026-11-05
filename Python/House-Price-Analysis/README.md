@@ -1,20 +1,26 @@
-# 🏡 House Price Prediction | Rudehen
+ <div align="right">
+
+[🇮🇷 فارسی](README.fa.md) | [🇬🇧 English](README.md)
+
+</div>
 
 <div align="center">
 
-# 🏠 Rudehen House Price Predictor
+# 🏡 Rudehen House Price Prediction
 
-### Predict House Prices Using Machine Learning
+### Smart Property Price Estimation Using Machine Learning
 
-A Persian-language machine learning application for estimating residential property prices in Rudehen, Iran.
+Predict residential property prices in Rudehen, Iran, using Machine Learning.
 
-**Built with Python · Streamlit · Scikit-learn**
+<br/>
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
-![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?logo=streamlit)
-![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-Machine%20Learning-F7931E?logo=scikitlearn)
-![Status](https://img.shields.io/badge/Status-Completed-success)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Scikit Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+
+![Status](https://img.shields.io/badge/Project-Machine%20Learning-success)
+![Language](https://img.shields.io/badge/Interface-Persian-blue)
 
 </div>
 
@@ -22,11 +28,11 @@ A Persian-language machine learning application for estimating residential prope
 
 ## 📌 About The Project
 
-**House Price Prediction – Rudehen** is a machine learning project designed to estimate the total price of residential properties in Rudehen, Iran.
+**Rudehen House Price Prediction** is a Machine Learning project designed to estimate residential property prices in Rudehen, Iran.
 
-The application uses property information such as area, construction year, number of rooms, parking, elevator, and storage to generate an estimated property price.
+The application uses property characteristics and historical real estate data to predict the approximate total price of a property.
 
-The project uses a Linear Regression model trained on real estate listing data.
+The prediction model is built using **Linear Regression**, with an interactive interface developed using Streamlit.
 
 ## ✨ Features
 
@@ -38,21 +44,24 @@ The project uses a Linear Regression model trained on real estate listing data.
 - 🛗 Elevator Availability
 - 📦 Storage Availability
 - 🏬 Apartment Floor Selection
-- 💰 Estimated Total Property Price
+- 💰 Total Property Price Prediction
 - 🇮🇷 Persian User Interface
 
 ## 🧠 Machine Learning
 
-The prediction model is based on **Linear Regression**.
+### Algorithm
+
+**Linear Regression**
 
 ### Workflow
 
 1. Load real estate data from Excel.
-2. Clean and prepare the dataset.
-3. Convert categorical features into numerical values.
-4. Split the dataset into training and testing sets.
-5. Train the Linear Regression model.
-6. Predict the total property price based on user inputs.
+2. Prepare and clean the dataset.
+3. Encode categorical features.
+4. Separate features and target variable.
+5. Split data into training and testing sets.
+6. Train the Linear Regression model.
+7. Predict property prices using user inputs.
 
 ### Model Configuration
 
@@ -61,62 +70,75 @@ The prediction model is based on **Linear Regression**.
 | Algorithm | Linear Regression |
 | Test Size | 40% |
 | Random State | 1 |
-| Target | Total Property Price |
+| Target Variable | Total Property Price |
 
 ## 🛠️ Technologies
 
-- Python
-- Pandas
-- Scikit-learn
-- Streamlit
-- Excel Dataset
-
-## 🚀 Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/Staha05/Machine-Learning.git
-```
-
-Go to the project directory:
-
-```bash
-cd Machine-Learning/Python/House-Price-Analysis
-```
-
-Install dependencies:
-
-```bash
-pip install streamlit pandas scikit-learn openpyxl
-```
-
-Make sure the dataset `divar_rudehen.xlsx` is available in the project directory.
-
-Run the application:
-
-```bash
-streamlit run app.py
-```
+| Technology | Purpose |
+|---|---|
+| Python | Programming Language |
+| Pandas | Data Processing |
+| Scikit-learn | Machine Learning |
+| Streamlit | Web Interface |
+| Excel | Dataset Storage |
 
 ## 📂 Project Structure
 
 ```text
 House-Price-Analysis/
 │
-├── app.py
+├── README.md
+├── README.fa.md
+├── home_price_rudhen_st.py
 ├── divar_rudehen.xlsx
-├── icon.png
-└── README.md
+└── rudehen_home_price.ipynb
 ```
+
+## 🚀 Installation & Usage
+
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/Staha05/Machine-Learning.git
+```
+
+### 2. Navigate to Project
+
+```bash
+cd Machine-Learning/Python/House-Price-Analysis
+```
+
+### 3. Install Dependencies
+
+```bash
+pip install streamlit pandas scikit-learn openpyxl
+```
+
+### 4. Run Application
+
+```bash
+streamlit run home_price_rudhen_st.py
+```
+
+Make sure `divar_rudehen.xlsx` is located in the same directory as the Python application.
+
+## 📊 Project Files
+
+| File | Description |
+|---|---|
+| `home_price_rudhen_st.py` | Streamlit Application |
+| `divar_rudehen.xlsx` | Real Estate Dataset |
+| `rudehen_home_price.ipynb` | Data Analysis Notebook |
+| `README.md` | English Documentation |
+| `README.fa.md` | Persian Documentation |
 
 ## ⚠️ Disclaimer
 
-The predicted prices are estimates generated from historical dataset information.
+The predicted prices are approximate estimates based on the available dataset and trained model.
 
 Actual property prices may vary depending on market conditions, location, property condition, and other factors.
 
-This application is intended for educational and experimental purposes.
+This project is intended for educational and experimental purposes.
 
 ---
 
@@ -124,7 +146,7 @@ This application is intended for educational and experimental purposes.
 
 ### 👨‍💻 Developed by Staha05
 
-**Machine Learning | Python | Data Science**
+**Python | Machine Learning | Data Science**
 
 [GitHub Profile](https://github.com/Staha05)
 
