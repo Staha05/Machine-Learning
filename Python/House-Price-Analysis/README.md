@@ -1,6 +1,9 @@
- <div align="right">
-[🇮🇷 فارسی](README.fa.md) | [🇬🇧 English](README.md)
-</div>
+<p align="right">
+  <a href="README.fa.md">
+    <img src="https://img.shields.io/badge/🇮🇷_فارسی-انتخاب_زبان-198754?style=for-the-badge" />
+  </a>
+  <img src="https://img.shields.io/badge/🇬🇧_English-Current-333333?style=for-the-badge" />
+</p>
 
 # House Price Prediction — Rudehen
 
