@@ -1,6 +1,9 @@
-<div align="right">
-[🇮🇷 فارسی](README.fa.md) | [🇬🇧 English](README.md)
-</div>
+<p align="right">
+  <img src="https://img.shields.io/badge/🇮🇷_فارسی-198754?style=for-the-badge" />
+  <a href="README.md">
+    <img src="https://img.shields.io/badge/🇬🇧_English-333333?style=for-the-badge" />
+  </a>
+</p>
 
 # پیش‌بینی قیمت مسکن رودهن
 
