@@ -1,10 +1,9 @@
 <p align="right">
   <a href="README.fa.md">
-    <img src="https://img.shields.io/badge/🇮🇷_فارسی-انتخاب_زبان-198754?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/🇮🇷_فارسی-198754?style=for-the-badge" />
   </a>
-  <img src="https://img.shields.io/badge/🇬🇧_English-Current-333333?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/🇬🇧_English-333333?style=for-the-badge" />
 </p>
-
 # House Price Prediction — Rudehen
 
 A machine learning project for estimating residential property prices in Rudehen, Iran.
